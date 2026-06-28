@@ -1,218 +1,250 @@
 <div align="center">
 
-# ✖️ QuickMultiply
+<!-- Animated wave header -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=QuickMultiply&fontSize=62&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Multiply%20any%20numbers%20%E2%80%94%20instantly,%20in%20the%20cloud.&descAlignY=55&descSize=18"/>
 
-### Multiply any numbers — instantly, in the cloud.
+<!-- Typing animation -->
+<a href="https://quickmultiply.onrender.com">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=6C63FF&center=true&vCenter=true&width=600&lines=Production-Ready+Flask+App+%F0%9F%90%8D;Containerized+with+Docker+%F0%9F%90%B3;Deployed+Live+on+Render+%E2%98%81%EF%B8%8F;Clean+UI+%2B+RESTful+Architecture+%E2%9A%A1" alt="Typing SVG" />
+</a>
 
+<br/><br/>
+
+<!-- Badges row 1 -->
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
-[![Flask](https://img.shields.io/badge/Flask-2.x-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com)
-[![Docker](https://img.shields.io/badge/Docker-Containerized-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://docker.com)
-[![Render](https://img.shields.io/badge/Deployed_on-Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)](https://quickmultiply.onrender.com)
-[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+[![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com)
+[![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://docker.com)
+[![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)](https://quickmultiply.onrender.com)
+[![MIT License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+
+<!-- Badges row 2 -->
+[![GitHub stars](https://img.shields.io/github/stars/prithvicoder1/QuickMultiply?style=social)](https://github.com/prithvicoder1/QuickMultiply/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/prithvicoder1/QuickMultiply?style=social)](https://github.com/prithvicoder1/QuickMultiply/network/members)
+[![GitHub last commit](https://img.shields.io/github/last-commit/prithvicoder1/QuickMultiply?style=flat-square&color=7957d5)](https://github.com/prithvicoder1/QuickMultiply/commits/main)
 
 <br/>
 
-> A production-ready Flask web application containerized with Docker and deployed live on Render.  
-> Built to demonstrate modern backend development — RESTful architecture, containerization, cloud deployment, and clean UI design.
-
-<br/>
-
-🔗 **[Live Demo → quickmultiply.onrender.com](https://quickmultiply.onrender.com)**
+### 🔗 [**Try it Live → quickmultiply.onrender.com**](https://quickmultiply.onrender.com)
 
 </div>
 
----
+<br/>
 
-## 📌 Table of Contents
+<!-- Animated snake divider -->
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
 
-- [About the Project](#-about-the-project)
-- [Live Demo](#-live-demo)
-- [Features](#-features)
-- [Tech Stack](#-tech-stack)
-- [How It Works](#-how-it-works)
-- [Project Structure](#-project-structure)
-- [Getting Started](#-getting-started)
-- [Docker Usage](#-docker-usage)
-- [Deployment](#-deployment-on-render)
-- [Contributing](#-contributing)
-- [License](#-license)
+<br/>
 
----
+## 🧠 What is QuickMultiply?
 
-## 🎯 About the Project
+<img align="right" width="300" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif"/>
 
-**QuickMultiply** is a lightweight, production-grade Flask web app that lets users multiply any set of numbers by entering them as a comma-separated list. While the functionality is intentionally simple, the engineering behind it is not — this project is built to showcase a complete, real-world backend development workflow:
+**QuickMultiply** is a lightweight yet **production-grade** Flask web application that multiplies any set of numbers entered as a comma-separated list — and returns the result instantly.
 
-- ✅ RESTful web app with Flask
-- ✅ Containerized with Docker for environment consistency
-- ✅ Version-controlled with Git and hosted on GitHub
-- ✅ Deployed to the cloud via Render with zero manual server setup
+But the real story isn't the math. It's the **full engineering pipeline** behind it:
 
----
+- 🐍 Clean Flask REST endpoint with input validation
+- 🐳 Containerized with Docker for zero-friction deployment
+- ☁️ Live on Render — auto-deploys on every `git push`
+- 🎨 Gradient UI with smooth hover animations
+- 📱 Fully responsive across all screen sizes
 
-## 🚀 Live Demo
+<br clear="right"/>
 
-> **[https://quickmultiply.onrender.com](https://quickmultiply.onrender.com)**
+<br/>
 
-Enter numbers like `2, 3, 4` and get the result `24` instantly.
-
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%"/>
 
 ## ✨ Features
 
-- ➕ Multiply any quantity of numbers from a single input field
-- 🔢 Handles both integers and floating-point numbers seamlessly
-- ⚠️ Graceful error handling for invalid inputs
-- 📱 Fully responsive — works on mobile, tablet, and desktop
-- 🎨 Clean gradient UI with smooth hover animations
-- 🐳 Docker-ready for consistent local and production environments
-- ☁️ Live and publicly accessible via Render cloud deployment
+<div align="center">
 
----
+| 🔢 Feature | 💬 Description |
+|:---:|:---|
+| **Multi-number input** | Enter any count of numbers separated by commas |
+| **Float support** | Handles decimals like `1.5, 2.5, 4` seamlessly |
+| **Smart output** | Displays whole numbers as integers, not floats |
+| **Error handling** | Friendly messages for invalid or empty inputs |
+| **Responsive UI** | Works beautifully on mobile, tablet, and desktop |
+| **Dockerized** | Run anywhere with one `docker run` command |
+| **Cloud deployed** | Live 24/7 on Render with zero manual ops |
+
+</div>
+
+<br/>
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%"/>
 
 ## 🛠️ Tech Stack
 
-| Layer | Tool |
-|---|---|
-| **Language** | Python 3.10+ |
-| **Web Framework** | Flask |
-| **Frontend** | HTML5, CSS3 (inline via `render_template_string`) |
-| **Containerisation** | Docker |
-| **Cloud Deployment** | Render |
-| **Version Control** | Git & GitHub |
+<div align="center">
 
----
+<img src="https://skillicons.dev/icons?i=python,flask,docker,html,css,git,github&theme=dark" />
 
-## 🧠 How It Works
+<br/><br/>
+
+| Layer | Tool | Purpose |
+|:---:|:---:|:---|
+| **Backend** | ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=flat-square) Flask | REST route, logic, template rendering |
+| **Frontend** | ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white&style=flat-square) ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white&style=flat-square) | Inline via `render_template_string` |
+| **Container** | ![Docker](https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white&style=flat-square) | Environment consistency |
+| **Deployment** | ![Render](https://img.shields.io/badge/-Render-46E3B7?logo=render&logoColor=white&style=flat-square) | Cloud hosting, auto-deploy |
+| **Version Control** | ![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white&style=flat-square) | Source code & CI/CD trigger |
+
+</div>
+
+<br/>
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%"/>
+
+## 🔄 How It Works
 
 ```
-User enters:  "2, 3, 4"
-                  │
-                  ▼
-         POST /  (Flask route)
-                  │
-                  ▼
-     Split string by comma → ["2", "3", "4"]
-                  │
-                  ▼
-     Convert to float list → [2.0, 3.0, 4.0]
-                  │
-                  ▼
-     Multiply iteratively  → 2 × 3 × 4 = 24
-                  │
-                  ▼
-     If result is whole number → display as int
-                  │
-                  ▼
-         Render result on page: "Result = 24"
+┌─────────────────────────────────────────────────────┐
+│                                                     │
+│   User enters:  "2, 3, 4"  →  clicks Multiply      │
+│                                                     │
+└──────────────────────┬──────────────────────────────┘
+                       │  HTTP POST /
+                       ▼
+┌─────────────────────────────────────────────────────┐
+│              Flask Route Handler                    │
+│                                                     │
+│   1. Split by comma  →  ["2", "3", "4"]            │
+│   2. Convert to float  →  [2.0, 3.0, 4.0]         │
+│   3. Multiply iteratively  →  2 × 3 × 4 = 24.0    │
+│   4. Whole number check  →  display as 24          │
+│                                                     │
+└──────────────────────┬──────────────────────────────┘
+                       │
+                       ▼
+┌─────────────────────────────────────────────────────┐
+│                                                     │
+│        ✅  Result = 24  rendered on page            │
+│                                                     │
+└─────────────────────────────────────────────────────┘
 ```
 
-Input validation catches non-numeric values and empty inputs, returning a user-friendly error message without crashing the app.
+> Invalid or empty input? The app catches it gracefully and shows a user-friendly error — no crashes, no stack traces.
 
----
+<br/>
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%"/>
 
 ## 📂 Project Structure
 
 ```
-QuickMultiply/
+📦 QuickMultiply/
 │
-├── 🐍 app.py              # Flask app — routes, logic, and HTML template
-├── 📋 requirements.txt    # Python dependencies (Flask)
-├── 🐳 Dockerfile          # Container build instructions
-└── 📄 README.md           # Project documentation
+├── 🐍  app.py               ← Flask app: routes, logic & HTML template
+├── 📋  requirements.txt     ← Python dependencies (Flask)
+├── 🐳  Dockerfile           ← Container build instructions
+└── 📄  README.md            ← You are here!
 ```
 
----
+<br/>
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%"/>
 
 ## ⚙️ Getting Started
 
-### Prerequisites
-
-- Python 3.10+
-- pip
-- Docker *(optional, for containerized run)*
-
-### 1. Clone the repository
+### 🖥️ Run Locally
 
 ```bash
+# 1. Clone the repo
 git clone https://github.com/prithvicoder1/QuickMultiply.git
 cd QuickMultiply
-```
 
-### 2. Install dependencies
-
-```bash
+# 2. Install dependencies
 pip install -r requirements.txt
-```
 
-### 3. Run the app locally
-
-```bash
+# 3. Start the server
 python app.py
 ```
 
-Open your browser at **http://localhost:5001**
+> Open **http://localhost:5001** in your browser 🚀
 
 ---
 
-## 🐳 Docker Usage
-
-Run the app inside a Docker container — no Python installation needed on your machine.
-
-### Build the image
+### 🐳 Run with Docker
 
 ```bash
+# Build the image
 docker build -t quickmultiply .
-```
 
-### Run the container
-
-```bash
+# Run the container
 docker run -p 5001:5001 quickmultiply
 ```
 
-Open your browser at **http://localhost:5001**
+> Open **http://localhost:5001** — same result, zero Python setup needed.
 
----
+<br/>
 
-## ☁️ Deployment on Render
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%"/>
 
-This app is deployed live on **[Render](https://render.com)** using the Docker runtime.
-
-**To deploy your own instance:**
-
-1. Push your code to GitHub
-2. Go to [render.com](https://render.com) and create a **New Web Service**
-3. Connect your GitHub repository
-4. Set the environment to **Docker**
-5. Render auto-detects the `Dockerfile` and builds & deploys automatically
-
-Every push to `main` triggers a fresh deployment — zero manual steps.
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome!
-
-1. Fork the repository
-2. Create your branch: `git checkout -b feature/your-feature`
-3. Commit your changes: `git commit -m 'Add your feature'`
-4. Push to the branch: `git push origin feature/your-feature`
-5. Open a Pull Request
-
----
-
-## 📄 License
-
-Distributed under the MIT License. See [LICENSE](LICENSE) for details.
-
----
+## ☁️ Deploy on Render
 
 <div align="center">
 
-Made with ❤️ by [Prithvi](https://github.com/prithvicoder1)
+```
+GitHub Repo  ──push──▶  Render detects Dockerfile
+                                    │
+                                    ▼
+                         Auto-build & deploy
+                                    │
+                                    ▼
+                    🌐 Live at quickmultiply.onrender.com
+```
 
-⭐ Found this useful? Give it a star — it means a lot!
+</div>
+
+**Steps to deploy your own:**
+
+1. Push code to GitHub
+2. Go to [render.com](https://render.com) → **New Web Service**
+3. Connect your GitHub repo
+4. Runtime: **Docker**
+5. Click **Deploy** — done ✅
+
+Every `git push` to `main` triggers a fresh deployment automatically.
+
+<br/>
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%"/>
+
+## 🤝 Contributing
+
+```bash
+# Fork → Clone → Branch → Commit → Push → PR
+git checkout -b feature/your-feature
+git commit -m "✨ Add your feature"
+git push origin feature/your-feature
+```
+
+Then open a Pull Request on GitHub — all contributions are welcome!
+
+<br/>
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%"/>
+
+## 📄 License
+
+Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for details.
+
+<br/>
+
+<!-- Animated wave footer -->
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
+
+<!-- Visitor counter -->
+![Visitor Count](https://profile-counter.glitch.me/prithvicoder1-QuickMultiply/count.svg)
+
+<br/>
+
+### Made with ❤️ by [Prithvi](https://github.com/prithvicoder1)
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer"/>
 
 </div>
